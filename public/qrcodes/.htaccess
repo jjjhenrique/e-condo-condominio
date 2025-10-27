@@ -1,0 +1,15 @@
+# Permitir acesso aos arquivos PNG
+<FilesMatch "\.(png|jpg|jpeg)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Cache de 24 horas
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/png "access plus 1 day"
+    ExpiresByType image/jpeg "access plus 1 day"
+</IfModule>
+
+# Prevenir listagem de diretório
+Options -Indexes
