@@ -11,15 +11,15 @@
 // ============================================
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'econdo_packages');
-define('DB_USER', 'root');
-define('DB_PASS', 'Db$@ud3Ju@');
+define('DB_USER', 'joaoh');
+define('DB_PASS', '@H3nrique0');
 define('DB_CHARSET', 'utf8mb4');
 
 // ============================================
 // CONFIGURAÇÕES DO SISTEMA
 // ============================================
 define('SITE_NAME', 'E-Condo Packages');
-define('SITE_URL', 'http://localhost/e-condo');
+define('SITE_URL', 'https://econdo.sisunico.shop');
 define('BASE_PATH', __DIR__ . '/../');
 
 // ============================================
