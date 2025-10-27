@@ -9,7 +9,7 @@
 // ============================================
 // CONFIGURAÇÕES DO BANCO DE DADOS
 // ============================================
-define('DB_HOST', '91.98.206.128');
+define('DB_HOST', '91.98.206.128:3306');
 define('DB_NAME', 'econdo_packages');
 define('DB_USER', 'joaoh');
 define('DB_PASS', '@H3nrique0');
