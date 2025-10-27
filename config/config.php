@@ -70,7 +70,7 @@ define('HASH_COST', 10);
 // ou definidas diretamente aqui
 
 // URL base da Evolution API (sem barra no final)
-define('EVOLUTION_API_URL', 'http://localhost:8080');
+define('EVOLUTION_API_URL', 'https://evo.sisunico.shop');
 
 // Token de autenticação da Evolution API (API Key global)
 // Este token será carregado do banco de dados
