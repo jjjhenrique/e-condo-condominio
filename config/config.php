@@ -9,7 +9,7 @@
 // ============================================
 // CONFIGURAÇÕES DO BANCO DE DADOS
 // ============================================
-define('DB_HOST', 'localhost');
+define('DB_HOST', '91.98.206.128');
 define('DB_NAME', 'econdo_packages');
 define('DB_USER', 'joaoh');
 define('DB_PASS', '@H3nrique0');
@@ -36,7 +36,7 @@ date_default_timezone_set('America/Sao_Paulo');
 // ============================================
 // CONFIGURAÇÕES DE ERRO (DESENVOLVIMENTO)
 // ============================================
-define('ENVIRONMENT', 'development'); // development ou production
+define('ENVIRONMENT', 'production'); // development ou production
 
 if (ENVIRONMENT === 'development') {
     error_reporting(E_ALL);
